@@ -1,0 +1,36 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.green{
+  background-color: green;
+}
+
+.rose{
+  background-color: #FFC0CB;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  line-height: 200px;
+}
+.redAccent{
+  background-color: #F07F80;
+  height: 184px;
+  border: 1px solid white;
+  display: inline-block;
+  line-height: 184px;
+}
+
+/* Selettore Avanzato per le colonne dell'ultima row*/
+
+.container:nth-child(5)> .col-6 > .container, .container:nth-child(5)> .col-6:nth-child(2)> .container{
+  padding: 8px;
+}
+
+
+p{
+  text-align: center;
+  vertical-align: middle;
+}
